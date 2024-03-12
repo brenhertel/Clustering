@@ -166,6 +166,8 @@ class elmap_class(object):
         print(self.cluster_list)
         print('Centers:')
         print(self.cluster_centers)
+        print('Number of Centers:')
+        print(len(self.cluster_centers))
         
     #plot the clusters
     def plot(self, mode='show', title='', fpath=''):
